@@ -2,6 +2,7 @@
 PHP pagination class for korean style
 
 # Usage
+<pre><code>
 <?php
 $config = array(
     'base_url' => 'http://www.example.com/bbs/board.php',
@@ -12,8 +13,10 @@ $paging = new Paging();
 $pagination = $paging->create();
 
 echo $pagination;
+</code></pre>
 
 # Usage ON Codeigniter
+<pre><code>
 <?php
 $config = array(
     'base_url' => 'http://www.example.com/bbs/board.php',
@@ -25,3 +28,4 @@ $this->paging->initialize($config);
 $pagination = $this->paging->create();
 
 echo $pagination;
+</code></pre>
