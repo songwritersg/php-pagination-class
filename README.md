@@ -3,7 +3,6 @@ PHP pagination class for korean style
 
 # Usage
 <pre><code>
-<?php
 $config = array(
     'base_url' => 'http://www.example.com/bbs/board.php',
     'page_rows' => 10,
@@ -17,7 +16,6 @@ echo $pagination;
 
 # Usage ON Codeigniter
 <pre><code>
-<?php
 $config = array(
     'base_url' => 'http://www.example.com/bbs/board.php',
     'page_rows' => 10,
